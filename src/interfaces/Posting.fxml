@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="333.0" layoutY="14.0" text="New Post">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Button layoutX="654.0" layoutY="522.0" mnemonicParsing="false" prefWidth="141.0" style="-fx-background-color: #ffad60; -fx-background-radius: 25px; -fx-pref-width: 110px; -fx-pref-height: 51px;" text="Post" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="523.0" layoutY="522.0" mnemonicParsing="false" prefWidth="141.0" style="-fx-background-color: F1F0F0; -fx-background-radius: 25px; -fx-pref-width: 110; -fx-pref-height: 51;" text="Clear">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextArea layoutX="35.0" layoutY="76.0" prefHeight="454.0" prefWidth="772.0" promptText="Dear Diary..." style="-fx-pref-width: 730px; -fx-pref-height: 370px;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextArea>
+      <CheckBox layoutX="35.0" layoutY="474.0" mnemonicParsing="false" text="Ananymous">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </CheckBox>
+   </children>
+</AnchorPane>
